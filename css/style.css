@@ -10,11 +10,16 @@ body {
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
   color: #d03c56;
   text-decoration: none;
 }
@@ -38,12 +43,12 @@ a:link, a:visited, a:hover, a:active {
 .footer {
   width: 100%;
   padding: 20px 0 30px;
-  background: #2d3d54 url('../images/bg-footer.gif');
+  background: #2d3d54 url("../images/bg-footer.gif");
   color: #fff;
 }
 
 .clearfix::after {
-  content:'';
+  content: "";
   display: block;
   clear: both;
 }
@@ -52,7 +57,7 @@ a:link, a:visited, a:hover, a:active {
   width: 225px;
   height: 56px;
   margin: 0 auto;
-  background: url('../images/logo.png') no-repeat;
+  background: url("../images/logo.png") no-repeat;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
@@ -60,7 +65,7 @@ a:link, a:visited, a:hover, a:active {
 .logo a {
   display: block;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
 .global-nav {
@@ -101,7 +106,7 @@ a:link, a:visited, a:hover, a:active {
   transition: opacity 0.15s;
 }
 .hot-topic:hover {
- opacity: 0.85;
+  opacity: 0.85;
 }
 .hot-topic .image {
   float: left;
@@ -121,7 +126,7 @@ a:link, a:visited, a:hover, a:active {
   margin-bottom: 15px;
   color: #fff;
   font-weight: normal;
-  font-size: 2.0rem;
+  font-size: 2rem;
 }
 .hot-topic .desc {
   color: #ddc;
@@ -143,7 +148,7 @@ a:link, a:visited, a:hover, a:active {
 
 .heading {
   padding: 10px 12px;
-  background: url('../images/bg-slash.gif');
+  background: url("../images/bg-slash.gif");
   letter-spacing: 1px;
   font-size: 1.6rem;
 }
@@ -157,22 +162,22 @@ a:link, a:visited, a:hover, a:active {
   display: block;
   padding: 10px 15px;
   color: #333;
-  font-size: 0; 
+  font-size: 0;
   transition: background-color 0.1s;
 }
 .scroll-list .scroll-item:nth-of-type(even) a {
-  background: url('../images/bg-slash.gif');
+  background: url("../images/bg-slash.gif");
 }
 .scroll-list .scroll-item a:hover {
   background-color: #fafaf8;
 }
 
 .scroll-list .date {
- display: inline-block;
- width: 19%;
- letter-spacing: 1px;
- font-weight: bold;
- font-size: 1.0rem;
+  display: inline-block;
+  width: 19%;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1rem;
 }
 .scroll-list .category {
   display: inline-block;
@@ -182,7 +187,7 @@ a:link, a:visited, a:hover, a:active {
   color: #fff;
   text-align: center;
   letter-spacing: 1px;
-  font-size: 1.0rem;
+  font-size: 1rem;
   line-height: 16px;
 }
 .scroll-list .category.news {
@@ -194,7 +199,7 @@ a:link, a:visited, a:hover, a:active {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding-left: 15px; 
+  padding-left: 15px;
   font-size: 1.2rem;
 }
 
@@ -263,7 +268,7 @@ a:link, a:visited, a:hover, a:active {
 }
 .ranking .ranking-item a {
   /* なんでここでbloackを指定したの？ */
-  display: block; 
+  display: block;
   font-size: 0;
   transition: opacity 0.15s;
 }
@@ -299,7 +304,7 @@ a:link, a:visited, a:hover, a:active {
 }
 .ranking .ranking-item:nth-of-type(1) .order,
 .ranking .ranking-item:nth-of-type(2) .order,
-.ranking .ranking-item:nth-of-type(3) .order  {
+.ranking .ranking-item:nth-of-type(3) .order {
   border: none;
   color: #fff;
   font-weight: normal;
@@ -319,7 +324,7 @@ a:link, a:visited, a:hover, a:active {
   content: counter(ranking);
   counter-increment: ranking;
   display: inline-block;
-  font-size: 1.0rem;
+  font-size: 1rem;
   -webkit-transorm: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
@@ -348,7 +353,7 @@ a:link, a:visited, a:hover, a:active {
 .documents > li ul > li {
   margin-bottom: 15px;
   padding-left: 10px;
-  background: url('../images/arrow.gif') no-repeat left center;
+  background: url("../images/arrow.gif") no-repeat left center;
 }
 .documents a:hover {
   text-decoration: underline;
@@ -383,8 +388,8 @@ a:link, a:visited, a:hover, a:active {
 .header {
   width: 100%;
   padding: 28px 0 10px;
-  background: url('../images/bg-header.gif') repeat-x;
-  box-shadow: 0px 0px 10px 1px #e3e3e3
+  background: url("../images/bg-header.gif") repeat-x;
+  box-shadow: 0px 0px 10px 1px #e3e3e3;
 }
 
 .horizontal-list {
@@ -405,7 +410,7 @@ a:link, a:visited, a:hover, a:active {
   border-bottom: 1px dashed #777;
   color: #bbb;
   font-size: 1.1rem;
-  transition: color 0.15s;  
+  transition: color 0.15s;
 }
 .horizontal-list .horizontal-item a:hover {
   color: #ddd;
