@@ -58,9 +58,7 @@
 .main {
   display: block; /* for IE */
   width: 660px;
-  height: 50px;
   float: left;
-  background-color: blue; /* TODO: delete */
 }
 .hot-topic {
   display: block;
@@ -353,20 +351,20 @@
   text-align: right;
   font-size: 0;
 }
-.horizontal-list .horizntal-item {
+.horizontal-list .horizontal-item {
   display: inline-block;
   padding: 0 15px;
   letter-spacing: 1px;
 }
-.horizontal-list .horizntal-item + .horizntal-item {
+.horizontal-list .horizontal-item + .horizontal-item {
   border-left: 1px solid #bbb;
 }
-.horizontal-list .horizntal-item a {
+.horizontal-list .horizontal-item a {
   border-bottom: 1px dashed #777;
   color: #bbb;
   font-size: 1.1rem;
   transition: color 0.15s;
 }
-.horizontal-list .horizntal-item a:hover {
+.horizontal-list .horizontal-item a:hover {
   color: #ddd;
 }
